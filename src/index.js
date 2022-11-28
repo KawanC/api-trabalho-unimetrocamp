@@ -21,7 +21,8 @@ app.use(express.json());
 //ROTAS
 app.get('/produtos', (req, res) => { // GET ALL
     try {
-        return res.status(200).json(dados_produtos);
+       
+        return res.status(200).json(dados_produtos());
     } catch (error) {
         return res.status(500).json("Ocorreu um erro");
     }
@@ -30,7 +31,8 @@ app.get('/produtos', (req, res) => { // GET ALL
 app.get('/produtos/:produtos_id', (req, res) => { // GET BY ID
     try {
         const { produtos_id } = req.params;
-        const produto = dados_produtos.find((produto) => produto.id == produtos_id);
+        let produtosJson =  dados_produtos(pathProdutos, encond);
+        const produto = produtosJson.find((produto) => produto.id == produtos_id);
         if (!produto) {
             return res.status(404).json("Produto Não Encontrado");
         } else {
