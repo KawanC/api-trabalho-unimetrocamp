@@ -6,6 +6,7 @@ const encond = "utf-8";
 
 // DATABASE
 const fs = require('fs');
+const cors = require('cors')
 
 //METODOS GENERICOS
 const dados = (path, tipo) => {
@@ -26,6 +27,7 @@ const port = process.env.PORT || 3333;
 // APP
 const app = express();
 app.use(express.json());
+app.use(cors())
 
 //ROTAS
 app.get('/produtos', (req, res) => { // GET ALL
