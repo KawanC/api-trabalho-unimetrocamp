@@ -36,6 +36,14 @@ app.get('/produtos', (req, res) => { // GET ALL
     }
 });
 
+app.get('/usuarios', (req, res) => { // GET ALL
+    try {
+        return res.status(200).json(dados(pathUsuarios, encond));
+    } catch (error) {
+        return res.status(500).json("Ocorreu um erro");
+    }
+});
+
 app.get('/produtos/:produtos_id', (req, res) => { // GET BY ID
     try {
         const { produtos_id } = req.params;
