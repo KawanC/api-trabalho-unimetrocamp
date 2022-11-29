@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "teste_1",
+    "data_nascimento": "teste_2",
+    "cpf": "teste",
+    "telefone": "teste",
+    "email": "teste",
+    "senha": "teste",
+    "genero": "teste"
+  },
+  {
+    "id": 2,
+    "nome": "teste_2",
+    "data_nascimento": "teste_2",
+    "cpf": "teste",
+    "telefone": "teste",
+    "email": "teste",
+    "senha": "teste",
+    "genero": "teste"
+  },
+  {
+    "id": 3,
+    "nome": "teste_3",
+    "data_nascimento": "teste_3",
+    "cpf": "teste",
+    "telefone": "teste",
+    "email": "teste",
+    "senha": "teste",
+    "genero": "teste"
+  },
+  {
+    "id": 4,
+    "nome": "teste_4",
+    "data_nascimento": "teste_4",
+    "cpf": "teste",
+    "telefone": "teste",
+    "email": "teste",
+    "senha": "teste",
+    "genero": "teste"
+  }
+]
