@@ -1,5 +1,5 @@
 # api-trabalho-unimetrocamp
-Projeto feito em NEXT JS
+Api feita em NodeJs
 # Desenvolvedores:
 
 Joao Vitor Montanari da Silva
