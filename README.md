@@ -4,7 +4,7 @@ Api feita em NodeJs
 
 Joao Vitor Montanari da Silva
 Eric Britto Barreto
-Kauan Costa
+Kawan Costa
 Wendell Santos
 # Sobre o projeto
 O projeto se trata de um e-commerce, o site se baseia na ideia de se assemelhar com sites como o Mercado Livre, Submarino entre outros. Assim se tratando de um centro comercial que vende uma diversidade muito grande de produtos, não se limitando a uma tecnologia ou categoria específica.
